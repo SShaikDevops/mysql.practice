@@ -1,0 +1,14 @@
+create table customer(
+customerid int AUTO_INCREMENT,
+customername varchar(30)not null,
+phone varchar(15),
+address1 varchar(50),
+address2 varchar(50),
+city varchar(50),
+state varchar(20),
+pincode varchar(10),
+country varchar(20),
+PRIMARY KEY (customerid));
+
+
+
